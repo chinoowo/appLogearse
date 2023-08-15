@@ -1,0 +1,7 @@
+{
+  "name": "appLogearse",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
