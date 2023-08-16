@@ -17,7 +17,7 @@ export class LoginPage {
 
   login() {
     // Aquí puedes realizar la autenticación real, en este ejemplo solo verificamos los valores estáticos
-    if (this.username === 'usuario' && this.password === 'contraseña') {
+    if (this.username === 'usuario123' && this.password === 'contraseña') {
       this.router.navigate(['/logeado']); // Cambia 'home' por la ruta de tu página principal
     } else {
       this.router.navigate(['/no-logeado']);

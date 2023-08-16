@@ -1,8 +1,14 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Inicia sesion para continuar
-    </ion-title>
+      Home
+      </ion-title>
+      <ion-row class="ion-justify-content">
+        <ion-col size="3">
+          <div><ion-button [routerLink]="['/login']" routerLinkActive="router-link-active"  fill="solid" >Iniciar sesion</ion-button></div>
+        </ion-col>
+      </ion-row>
+      
   </ion-toolbar>
 </ion-header>
 
@@ -14,8 +20,6 @@
   </ion-header>
 
   <div id="container">
-    <div></div>
-    <ion-button [routerLink]="['/login']" routerLinkActive="router-link-active"  fill="solid" >Iniciar sesion</ion-button>
     
     <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
   </div>
