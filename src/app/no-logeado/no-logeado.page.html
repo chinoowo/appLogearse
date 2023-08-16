@@ -6,15 +6,29 @@
       <ion-buttons slot="start">
         <ion-back-button [routerLink]="['/home']" default-href="#"></ion-back-button>
       </ion-buttons>
-      <ion-title>Volver</ion-title>
     </ion-toolbar>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">noLogeado</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Inicio de sesion fallido
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div class="ion-text-center">
+    <h1>Oops! algo ocurrio</h1>
+    <p>Lo sentimos! Pero las credenciales son incorrectas:(</p>
+    <ion-button expand="full" routerLink="/home">Volver a pagina de inicio</ion-button>
+  </div>
 </ion-content>
+
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-title>Ojo! Portate bien!</ion-title>
+  </ion-toolbar>
+</ion-footer>

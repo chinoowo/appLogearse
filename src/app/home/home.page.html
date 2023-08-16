@@ -1,26 +1,21 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
     <ion-title>
-      Home
-      </ion-title>
-      <ion-row class="ion-justify-content">
-        <ion-col size="3">
-          <div><ion-button [routerLink]="['/login']" routerLinkActive="router-link-active"  fill="solid" >Iniciar sesion</ion-button></div>
-        </ion-col>
-      </ion-row>
-      
+      Bienvenido!
+    </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+<ion-content class="ion-padding">
+  <div class="ion-text-center">
+    <h1>Inicia sesion con tu cuenta</h1>
+    <p>tambien puedes permanecer en la home page sin logearte</p>
+    <div><ion-button [routerLink]="['/login']" routerLinkActive="router-link-active"  fill="solid" >Iniciar sesion</ion-button></div>
   </div>
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-title>Contactanos!</ion-title>
+  </ion-toolbar>
+</ion-footer>
