@@ -1,3 +1,4 @@
+import { createAnimation } from 'https://cdn.jsdelivr.net/npm/@ionic/core@latest/dist/esm/index.mjs';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
@@ -22,3 +23,6 @@ describe('HomePage', () => {
     expect(component).toBeTruthy();
   });
 });
+
+
+

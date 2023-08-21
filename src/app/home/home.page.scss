@@ -22,3 +22,22 @@ ion-content {
     }
   }
 }
+
+@keyframes slideAndFade {
+  0%, 100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  25% {
+    transform: translateX(50%);
+    opacity: 1;
+  }
+  50%, 75% {
+    transform: translateX(0);
+    opacity: 0.2;
+  }
+}
+
+.slide-fade {
+  animation: slideAndFade 5s infinite;
+}
