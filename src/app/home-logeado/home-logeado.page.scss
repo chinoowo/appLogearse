@@ -1,19 +1,4 @@
-@keyframes slideRight {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(100%);
-    }
-  }
-  
-  .input-container {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    transition: transform 1s ease-in-out;
-  }
-  
-  .input-container:focus-within .input-wrapper {
-    animation: slideRight 1s forwards;
-  }
+ion-content {
+    --ion-background-color: hsla(0, 8%, 69%, 0.37);
+
+}

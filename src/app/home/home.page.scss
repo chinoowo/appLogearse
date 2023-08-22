@@ -1,13 +1,14 @@
 ion-content {
-  --ion-background-color: #f8f8f8;
+  --ion-background-color: hsla(0, 8%, 69%, 0.37);
 
   .ion-text-center {
     text-align: center;
-    margin-top: 150px;
+    margin-top: 50px;
 
     h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
+      font-size: 3rem;
+      margin-bottom: 50px;
+      --color: #303030;
     }
 
     p {
@@ -15,29 +16,9 @@ ion-content {
       font-size: 1.2rem;
       margin-bottom: 20px;
     }
-
-    ion-button {
-      --background: #007bff;
-      --color: #fff;
+    img{
+      padding: 5px;
     }
   }
 }
 
-@keyframes slideAndFade {
-  0%, 100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-  25% {
-    transform: translateX(50%);
-    opacity: 1;
-  }
-  50%, 75% {
-    transform: translateX(0);
-    opacity: 0.2;
-  }
-}
-
-.slide-fade {
-  animation: slideAndFade 5s infinite;
-}

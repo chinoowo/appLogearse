@@ -24,7 +24,7 @@ export class HomeLogeadoPage {
   async presentAlert() {
     const alert = await this.alertController.create({
       header: 'Usuario',
-      message:'Su nombre es : ' + this.firstName +' '+ this.lastName,
+      message:'Su nombre es : ' + this.firstName +' '+ this.lastName+' fue agregado correctamente',
       buttons: ['OK'],
     });
 
