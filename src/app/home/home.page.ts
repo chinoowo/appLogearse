@@ -23,7 +23,6 @@ export class HomePage  {
       .fromTo('transform', 'translateX(-400px)', 'translateX(400px)')
       .fromTo('opacity','1','0.2');
     animation.play();
-    console.log('hola');
   }
 }
 
