@@ -1,4 +1,10 @@
 ion-content {
     --ion-background-color: hsla(0, 8%, 69%, 0.37);
 
+    ion-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
 }
